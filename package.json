@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ATS-Lab/eslint-config.git"
+  },
+  "author": {
+    "name": "Sergei Bondarenko",
+    "email": "kosrotoff2002@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/ATS-Lab/eslint-config/issues"
+  },
+  "homepage": "https://github.com/ATS-Lab/eslint-config#readme",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
+    "eslint": "^8.20.0"
+  }
+}
