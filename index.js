@@ -54,7 +54,13 @@ module.exports = {
         'eol-last': 'error',
         'func-call-spacing': 'error',
         'implicit-arrow-linebreak': 'error',
-        'indent': 'error',
+        'indent': [
+            'error',
+            4,
+            {
+                'SwitchCase': 1
+            }
+        ],
         'linebreak-style': 'error',
         'lines-between-class-members': [
             'error',
