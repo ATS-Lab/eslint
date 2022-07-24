@@ -73,7 +73,8 @@ module.exports = {
             'warn',
             {
                 'code': 120,
-                'tabWidth': 4
+                'ignoreUrls': true,
+                'ignoreRegExpLiterals': true
             }
         ],
         'max-statements-per-line': 'error',
